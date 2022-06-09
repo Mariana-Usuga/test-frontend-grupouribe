@@ -1,11 +1,16 @@
-.swiper-slide{
-  padding-top: 50%;
-  overflow: hidden;
-  position: relative;
-  width: 400px;
-  background-color: aqua;
+.containerSwiper{
+  margin-top: 220px;
+  text-align: center;
 }
 
-.swiper-button-prev, .swiper-button-next{
-  color: rgb(255, 255, 255)
+.swiper-slide{
+  overflow: hidden;
+  position: relative;
+  font-size: 100px;
+  img{
+    top:0;
+    left:0;
+    width: 50%;
+  }
 }
+
