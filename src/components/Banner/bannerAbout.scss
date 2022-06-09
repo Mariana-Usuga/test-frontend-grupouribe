@@ -1,0 +1,58 @@
+.bannerAbout{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-top: 90px;
+  background-color: #Ff9f7c;
+  &__img{
+    width: 280px;
+    img{
+      width:280px;
+    }
+  }
+  &__imgCompanyName{
+    margin: 0 50px;
+    text-align: center;
+    width: 130px;
+    margin-top: 50px;
+    img{
+      width: 130px;
+      text-align: center;
+    }
+}
+&__companyAbout{
+  margin: 20px 0;
+  width: 350px;
+  text-align: center;
+  color: white;
+  &__btn{
+    color: white;
+    background-color: rgb(77, 75, 75);
+    border: none;
+    padding: 10px;
+  }
+}
+ }
+
+ @media (min-width: 1024px){
+   .bannerAbout{
+     &__img{
+    width: 500px;
+    img{
+      width: 500px;
+    }
+    }
+    &__companyAbout{
+      text-align: left;
+      width: 300px;
+    }
+    &__imgCompanyName{
+      width: 200px;
+      img{
+        width: 200px;
+      }
+    }
+  }
+  
+
+  }

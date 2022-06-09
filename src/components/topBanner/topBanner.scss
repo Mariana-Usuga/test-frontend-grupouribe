@@ -1,0 +1,12 @@
+.topBanner{
+  background-color: #FAEBD7;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top:0;
+  &__p{
+    text-align: center;
+    margin: auto;
+  }
+}
